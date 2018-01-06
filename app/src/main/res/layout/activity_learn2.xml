@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.nepalibraille.MainActivity"
+    >
+
+
+    <Button
+        android:id="@+id/buttona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2_btn"
+        android:foreground="@drawable/ic_looks_one_black_24dp"
+        android:text="2"
+        android:textColor="#056c16"
+        app:layout_constraintBottom_toTopOf="@+id/buttonc"
+        app:layout_constraintEnd_toStartOf="@+id/buttonb"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2_btn"
+        android:foreground="@drawable/ic_looks_two_black_24dp"
+        android:text="3"
+        android:textColor="#056c16"
+        app:layout_constraintBottom_toTopOf="@+id/buttond"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttona"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2_btn"
+        android:foreground="@drawable/ic_looks_3_black_24dp"
+        android:text="5"
+        android:textColor="#056c16"
+        app:layout_constraintBottom_toTopOf="@+id/buttone"
+        app:layout_constraintEnd_toStartOf="@+id/buttond"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttona" />
+
+    <Button
+        android:id="@+id/buttond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2_btn"
+        android:foreground="@drawable/ic_looks_4_black_24dp"
+        android:text="7"
+        android:textColor="#056c16"
+        app:layout_constraintBottom_toTopOf="@+id/buttonf"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonc"
+        app:layout_constraintTop_toBottomOf="@+id/buttonb" />
+
+    <Button
+        android:id="@+id/buttone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2_btn"
+        android:foreground="@drawable/ic_looks_5_black_24dp"
+
+        android:text="11"
+        android:textColor="#056c16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonf"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonc" />
+
+    <Button
+        android:id="@+id/buttonf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle2_btn"
+        android:foreground="@drawable/ic_looks_6_black_24dp"
+        android:text="13"
+        android:textColor="#056c16"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttone"
+        app:layout_constraintTop_toBottomOf="@+id/buttond" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+
